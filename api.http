@@ -1,0 +1,20 @@
+# API
+# https://jsonplaceholder.typicode.com
+
+# Array de 100 posts [{ "userId", "id", "title", "body" }]
+# GET https://jsonplaceholder.typicode.com/posts
+
+# GET https://jsonplaceholder.typicode.com/posts/1
+
+# GET https://jsonplaceholder.typicode.com/posts/100
+
+# ---
+
+# Array de 5000 photos [{ "albumId", "id", "title", "url", "thumbnailUrl" }]
+# GET https://jsonplaceholder.typicode.com/photos
+
+# --- 
+
+# 5 Comentarios del posts 1
+GET https://jsonplaceholder.typicode.com/posts/1/comments
+
